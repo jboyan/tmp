@@ -66,6 +66,8 @@
     [gestureRecognizers addObject:tapGesture];
     [gestureRecognizers addObjectsFromArray:scnView.gestureRecognizers];
     scnView.gestureRecognizers = gestureRecognizers;
+    
+    NSLog(@"Hello World!");
 }
 
 - (void) handleTap:(UIGestureRecognizer*)gestureRecognize
